@@ -115,15 +115,15 @@
     <br> <br>
 
     <!-- Main Section  -->
-    <main class="md:container mx-auto">
+    <main class="md:container mx-auto my-20">
         <!-- About Us Section  -->
-        <section class="bg-slate-100 md:container mx-auto lg:px-16">
-            <div>
+        <section class="bg-slate-100 md:container mx-auto lg:items-start text-center lg:text-left lg:px-16 lg:py-16">
+            <div class="hidden md:block">
                 <br>
-              <img  src="./assets/Vector.png"  alt="">
+              <img  src="assets/Vector.png"  alt="">
             </div>
             
-            <div class="flex">
+            <div class="flex gap-5">
             <div class="px-5 py-2">
             <div class="lg:w-48 px-4 py-1 bg-white rounded-3xl font-bold space-x-1  ">
               <span><i class="fa-solid fa-arrow-right  rounded-full px-2 py-2 -rotate-50"></i></span>
@@ -152,7 +152,7 @@
               
             </div>
           </div>
-          <img src="assets/Rectangle.png" alt="">
+          <img class="flex-col md:flex-row-reverse" src="assets/Rectangle.png" alt="">
         </div>
         <br>
         </section>
@@ -204,7 +204,7 @@
         </section>
 
         <!-- Our Latest Section  -->
-         <section>
+        <section>
             <br>
             <div class="text-center py-8 mb-10">
                 <button class="h-[36px] w-[240px] rounded-3xl bg-[#ABEF5F33] "><i class="fa-solid fa-arrow-right"></i>
@@ -214,68 +214,69 @@
                 <p class="font-medium text-base  text-neutral-700">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
             </div>
             <!-- Row Section  -->
-            <div>
-                <!-- 1st row  -->
-                <div class="sm:flex-col md:grid grid-cols-2 md:ml-48">
+            <section class="md:container mx-auto lg:px-16">
+                <div class="flex gap-7">
+                <div class="card lg:card-side bg-base-100 w-4/6 border-solid border-2 border-slate-200">
+                  <figure class="pl-4">
+                    <img
+                      src="assets/img1.png"/>
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Commercial</h2>
+                    <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
                     
-                    <div
-                        class="box-border rounded-lg border-2 flex flex-col p-12 md:flex-row md:p-1 md:gap-6 md:grid-cols-9 ">
-                        <div class="p-3">
-                            <img class="md:h-[200px] w-[400px]" src="assets/img1.png" alt="">
-                        </div>
-                        <div class="p-5 rounded-md md:pt-10">
-                            <h1 class="font-extrabold text-2xl text-neutral-700">Commercial</h1>
-                            <p class=" text-neutral-500 font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
-                            <div class="font-bold text-xl ">
-                                <p class="mt-5">View Details <i class="fa-solid fa-arrow-up fa-s  rotate-45 bg-[#ABEF5F] p-2 h-9 w-9 rounded-full  
-                                "></i></button></p>
-                            </div>
-    
-                        </div>
-                    </div>
-                    <!-- 2nd image  -->
-                    <div
-                        class="box-border rounded-lg border-2 ml-20 w-[274px]  p-5 md:grid-cols-3 md:ml-14  md:mt-8 md:h-[235px] md:w-[374px] ">
-                        <img class="md:h-[180px] md:w-[325px] " src="assets/img2.png" alt="">
-                    </div>
+                      <div class="items-center w-fit  font-bold space-x-1">
+                        <a class="font-bold">View Details</a>
+                        <span>
+                          <i class="fa-solid fa-arrow-right bg-lime-500 text-black rounded-xl px-2 py-2 -rotate-45"></i>
+                        </span>
+                      </div>
+                    
+                  </div>
+                  </div>
+                  <!-- 2nd card  -->
+                 <div class="w-98 border-solid border-2 border-slate-200 px-3 py-3 rounded-lg">
+                  <img src="assets/img2.png" alt="">
+                 </div>
                 </div>
                 <br>
-                <!-- 3rd row  -->
-                <div class="flex flex-col-reverse gap-4 md:flex-row  md:ml-12 md:-mt-5 ">
-                    <!-- 3rd imaqe -->
-                    <div
-                        class="ml-[80px] w-[274px] drop-shadow-lg box-border rounded-lg border-2 p-5 md:grid-cols-3 md:ml-8 md:mt-8 md:h-[227px]   ">
-                        <img class="md:h-[180px] " src="assets/img3.png" alt="">
-                    </div>
-                    <!-- 4 row  -->
-                    <div
-                        class="md:w-[675px] ml-[10px] pl-[55px] my-8 box-border rounded-lg border-2 flex flex-col  md:p-4 md:flex-row md:gap-6 md:grid-cols-9">
-                        <div class="p-5">
-                            <img class="md:h-[200px] w-[400px]" src="assets/img4.png" alt="">
-                        </div>
-                        <div class="p-5 rounded-md md:pt-10">
-                            <h1 class="font-extrabold text-xl">Commercial</h1>
-                            <p class=" text-neutral-500 font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
-                            <div class="font-bold text-xl ">
-                                <p class="mt-5">View Details <i class="fa-solid fa-arrow-up fa-s  rotate-45 bg-[#ABEF5F] p-2 h-9 w-9 rounded-full  
-                                "></i></button></p>
-                            </div>
+        
+                <div class="flex gap-7">
+        
+                <div class=" w-98 border-solid border-2 border-slate-200 px-3 py-3 rounded-lg">
+                  <img src="assets/img3.png" alt="">
+                 </div>
+        
+                 <div class="card lg:card-side bg-base-100 w-6/12 border-solid border-2 border-slate-200">
+                  <figure class="pl-4">
+                    <img
+                      src="assets/img4.png"/>
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Commercial</h2>
+                    <p>The barn house captivates with its blend of rustic charm and modern. </p>
+                    
+                      <div class="items-center w-fit  font-bold space-x-1">
+                        <a class="font-bold">View Details</a>
+                        <span>
+                          <i class="fa-solid fa-arrow-right bg-lime-500 text-black rounded-xl px-2 py-2 -rotate-45"></i>
+                        </span>
+                      </div>
+                    
+                  </div>
+                  </div>
+                  <div class="w-98 border-solid border-2 border-slate-200 px-3 py-3 rounded-lg">
+                    <img src="assets/img5.png" alt="">
+                   </div>
     
-                        </div>
-                    </div>
-                    <!-- 5th row  -->
-                    <div
-                        class="ml-[80px] w-[274px] box-border rounded-lg border-2  p-5 md:grid-cols-3 md:ml-1 md:mt-8 md:h-[227px]  ">
-                        <img class="md:h-[180px] " src="assets/img5.png" alt="">
-                    </div>
                 </div>
-            </div>    
+            </section>
         </section>
 
         <!-- Let's Discuss Section  -->
         <section class="mt-10 container mx-auto  md:h-[800px] h-[1050px] ">
             <!-- Background Image  -->
-             <div class="w-full h-[914px] bg-no-repeat bg-cover"
+             <div class="w-full h-[914px] bg-no-repeat bg-cover sm:h-[930px]"
                 style="background-image: url('assets/bg.jpg');">
 
             
@@ -307,12 +308,12 @@
             </button>
         
         </section> <br> 
-        <br>
+
      </div>
     </main>
 
      <!-- Footer Section  -->
-     <footer class="bg-black mt-7">
+     <footer class="bg-black mt-9">
         <div class="py-28 space-y-9">
 
             <div class="text-center space-y-3">
@@ -325,15 +326,16 @@
             </div>
             <div class=" space-y-9">
                 <nav>
-                    <ul class=" text-xl text-white flex flex-col md:flex-row">
-                        <li><a class="ml-[208px] md:ml-[425px] " href="">Home</a></li>
-                        <li><a class="ml-[200px] md:ml-[100px]" href="">Services</a></li>
-                        <li><a class="ml-[197px] md:ml-[100px] " href="">Portfolio</a></li>
-                        <li><a class="ml-[209px] md:ml-[100px] " href="">Blogs</a></li>
-                        <li><a class="ml-[188px] md:ml-[100px]" href="">Contact Us</a></li>
-    
+                    <ul class="grid grid-flow-row lg:grid-flow-col lg:gap-x-20 text-white space-y-5 md:text-center">
+                        <li><a  href="">Home</a></li>
+                        <li><a  href="">Services</a></li>
+                        <li><a  href="">Portfolio</a></li>
+                        <li><a  href="">Blogs</a></li>
+                        <li><a  href="">Contact Us</a></li>
                     </ul>
                 </nav>
+
+
             </div>
             <div class=" ml-36 md:ml-[540px] md:mt-10">
                 <button class="text-black btn  rounded-full border-none bg-green font-bold text-xl ">Book
